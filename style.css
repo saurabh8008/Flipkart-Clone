@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h4{
+    font-weight: 5600;
+}
+
+body{
+    background-color: #f1f3f6;
+}
+
+nav{
+    height: 56px;
+    background-color: #2874F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.flipkart_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    height: 20px;
+    width: 75px;
+}
+
+
+.explore{
+    
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+}
+
+.search{
+    background-color: white;
+    width: 430px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.search_bar{
+    width: 395px;
+    height: 36px;
+    border: none;
+    /* align-content: center; */
+}
+
+#search_icon{
+    padding: 0;
+    
+    width: 14px;
+    color:  #2874F0;
+    align-items: center;
+    font-weight: 600;
+}
+
+.login{
+    width: 121.5px;
+    height: 31px;
+    border-left: none;
+    color: #2874F0;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+
+.seller{
+    color: #ffffff;
+    font-size: 1.1em;
+    
+}
+
+#select{
+    border: none;
+    width: 57.52px;
+    background-color: #2874F0;
+    color: #ffffff;
+    font-size: 16px
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 133px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 2px 1px rgba(128, 128, 128, 0.192);
+    background-color: #ffffff;
+    
+}
+header div{
+    padding:  12px 8px;
+}
+
+.head_div_inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header div img{
+    height: 64px;
+    width: 64px;
+}
+
+header div h4{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.backgroud{
+    margin-top: 15px;
+    height: 280px;
+    
+    background-image: url(image.jpg);
+    background-size:cover;
+}
+
+.main_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 361px;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 2px 1px rgba(128, 128, 128, 0.192);
+    line-height: 1.5;  
+    background-color: #ffffff;
+}
+
+
+.main_1 div{
+    height: 200px;
+}
+
+.main_1 a{
+    text-decoration: none;
+    color: green;
+}
+
+.printer img{
+    margin: 23px 0px;
+}
+
+.camera img {
+    margin: 29px 0px;
+}
+
+
+.projecter img{
+    margin: 30px 0px;
+}
+
+.moniter img{
+    margin: 12px 0px;
+}
+
+.trimer img{
+    margin-top: -18px;
+}
+
+.trimer .h4_trimmer{
+    margin-top: 10px;
+}
+
+.printer, .camera, .projecter, .moniter, .trimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main_1 div .h4_top{
+    margin-top: 20px;
+}
+
+
+.section_2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 341px;
+    line-height: 1.5; 
+    background-color: #ffffff;
+    margin-top: 10px;
+ 
+}
+
+.car img{
+    margin: 6.5px 0px;
+}
+
+.toys img{
+    margin: 0px 21px;
+}
+
+.microphone img{
+    margin: 0px 42px;
+}
+
+.musical img{
+    margin: 15.5px 0px;
+}
+
+
+.section_2 div .text_2{
+    margin-top: 20px;
+}
+
+.section_a{
+    text-decoration: none;
+    color: green;
+}
+
+.car, .toys, .tyers, .microphone, .musical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 341px;
+    line-height: 1.5; 
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.mat img{
+    margin: 48px 0px;
+}
+
+.mat, .car_lubricant, .Academic_book, .Honey, .learning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.section_3 div .text_2{
+    margin-top: 25px;
+}
+
+.section_4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 341px;
+    line-height: 1.5; 
+    background-color: #ffffff;
+    
+}
+
+
+.sticker img{
+    margin: 22px 0px;
+}
+
+.artificail_Plants img{
+    margin: 15px 0px;
+}
+
+.section_4 div .text_2{
+    margin-top: 25px;
+}
+
+.clock, .microphone_2, .sticker, .matters, .artificail_Plants{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_1{
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 0px 30px;
+}
+
+.foot_1 p{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.foot_h4{
+    font-weight: 100;
+}
+
+
+.foot_2{
+    height: 256px;
+    background-color: #05152ee5;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    
+
+}
+
+h5{
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.foot_p{
+    font-size: 13px;
+    line-height: 1.6;
+}
